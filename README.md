@@ -1,7 +1,7 @@
 <h1> React Food Finder </h1>
 
 <h3>Project Summary</h3> 
-This is my Module 2 React project for Per Scholas Software Engineering Intensive. In this project I was tasked with using Fetch and UseEffect to make a request to an external data source like and insert some of the data retrieved into my State and display it on the screen<br>
+This is my Module 2 React project for Per Scholas Software Engineering Intensive. In this project I was tasked with using Fetch and UseEffect to make a request to an external data source and insert some of the data retrieved into my State and display it on the screen<br>
 <br>
 
 ![Screen Grab](https://user-images.githubusercontent.com/126014224/235780786-0a23f455-b5c5-4a45-af52-4895fb8f71f1.JPG)
