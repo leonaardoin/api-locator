@@ -20,7 +20,7 @@ function App() {
     setIsLoading(false); //set loading state to false
   };
 
-  //useEffect hook to search for receipe on component mount
+  //useEffect hook to search for receipe on component mount. handles form submit
   useEffect(() => {
     searchRecipes()
   }, []);
