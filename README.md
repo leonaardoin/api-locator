@@ -30,6 +30,10 @@ Before beginning my project, I needed to locate an appropriate API that would gi
 <li>Working with the Yelp API was unsuccessful and due to project time constraints I was unable to resolve the issue</li>
 <li>Due to time constraints and functionality issues I had to abandon my Navigation Bar but hope to bring that back in a future iteration</li>
 
+<h3>Improvements</h3>
+<li>Add auto complete function to search field</li>
+<li>Add more CSS design functions for a more user friendly visual experience</li>
+
 <h3>View a Live Demo Here:</h3>
 https://react-restaurant-finder.onrender.com
 
