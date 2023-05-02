@@ -42,8 +42,7 @@ function App() {
         handleSubmit={handleSubmit} //pass handleSubmit function to SearchBar component
       />
       <div className="recipes">
-        //check to see if there are recipes to display
-        {recipes ? recipes.map(recipe => (
+        {recipes ? recipes.map(recipe => ( //check to see if there are recipes to display
           <RecipeCard
              key={recipe.idMeal}
              recipe={recipe}
