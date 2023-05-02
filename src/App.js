@@ -40,7 +40,6 @@ function App() {
         setQuery={setQuery} //pass setQuery function to SearchBar component
         handleSubmit={handleSubmit} //pass handleSubmit function to SearchBar component
       />
-           //check to see if there are recipes to display
       <div className="recipes">
         {recipes ? recipes.map(recipe => (
           <RecipeCard
