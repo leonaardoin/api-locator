@@ -20,11 +20,11 @@ function App() {
     setIsLoading(false); //set loading state to false
   };
 
-  //useEffect hook to search for receipe on component mount
+  //useEffect hook to search for receipe on component mount. function to handle form submission
   useEffect(() => {
     searchRecipes()
   }, []);
-  const handleSubmit = (event) => { //function to handle form submission
+  const handleSubmit = (event) => { 
     event.preventDefault(); //prevent default form submission behavior
     searchRecipes(); //call searchRecipes function to search for recipe
   }
@@ -40,8 +40,9 @@ function App() {
         setQuery={setQuery} //pass setQuery function to SearchBar component
         handleSubmit={handleSubmit} //pass handleSubmit function to SearchBar component
       />
+           //check to see if there are recipes to display
       <div className="recipes">
-        {recipes ? recipes.map(recipe => ( //check to see if there are recipes to display
+        {recipes ? recipes.map(recipe => (
           <RecipeCard
              key={recipe.idMeal}
              recipe={recipe}
