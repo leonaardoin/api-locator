@@ -8,7 +8,8 @@ const SearchBar = ({
 }) => {
     //component renders search bar form for user query input and a submit button to search
     return (
-        <form onSubmit={handleSubmit}> //function: handles submission of form
+        //function: handles submission of form
+        <form onSubmit={handleSubmit}> 
             <input 
                 value={query} //string: current value of input field
                 className="form-control"
