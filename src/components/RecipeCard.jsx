@@ -1,12 +1,13 @@
 import React from "react";
 const RecipeCard = ({ recipe }) => {
+    //renders recipe card with image, category, name and link to recipe. recipe is object containing recipe details that renders recipe card. recipe object destructured to get properties
     const {
         idMeal,
         strMeal,
         strCategory,
         strMealThumb,
     } = recipe;
-    
+    //render recipe card
     return (
         <div className="card">
             <img
