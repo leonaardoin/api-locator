@@ -23,7 +23,7 @@ To begin type a key search word such as a food ingredient or category, e.g. "che
 
 <h3>How I Created My Project</h3>
 
-Before beginning my project, I needed to locate an appropriate API that would give me the free content I needed for a suitable amount of daily calls. From there, I had to determine the webpage functionality and design. I opted for a grid of recipe cards. I chose a public API, mealDB. This API was a webAPI not requiring an API key. 
+Before beginning my project, I needed to locate an appropriate API that would give me the free content I needed for a suitable amount of daily calls. From there, I had to determine the webpage functionality and design. I opted for a grid of recipe cards. I chose a public API, mealDB. This API was a webAPI not requiring an API key so I did not use an .env file in this project. 
 <br>
 
 <h3>Problems Encountered</h3>
