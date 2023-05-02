@@ -24,8 +24,7 @@ function App() {
   useEffect(() => {
     searchRecipes()
   }, []);
-//function to handle form submission
-  const handleSubmit = (event) => {
+  const handleSubmit = (event) => { //function to handle form submission
     event.preventDefault(); //prevent default form submission behavior
     searchRecipes(); //call searchRecipes function to search for recipe
   }
