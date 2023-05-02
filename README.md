@@ -19,6 +19,7 @@ To begin type a key search word such as a food ingredient or category, e.g. "che
 <li>CSS</li>
 <li>JavaScript</li>
 <li>React</li>
+<li>API</li>
 
 <h3>How I Created My Project</h3>
 
